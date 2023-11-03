@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "corporate_fd_pages",
+  "info": {
+    "singularName": "corporate-fd-page",
+    "pluralName": "corporate-fd-pages",
+    "displayName": "Corporate FD Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "corporate-fd.corporate-fd-header"
+    },
+    "KeyFeature": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corporate-fd.key-feature"
+    },
+    "FAQ": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corporate-fd.faq"
+    },
+    "InterestChart": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corporate-fd.fd-interest-chart"
+    }
+  }
+}

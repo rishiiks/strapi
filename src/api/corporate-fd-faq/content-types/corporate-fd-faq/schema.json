@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "corporate_fd_faqs",
+  "info": {
+    "singularName": "corporate-fd-faq",
+    "pluralName": "corporate-fd-faqs",
+    "displayName": "Corporate FD Faq",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "answer": {
+      "type": "text"
+    },
+    "question": {
+      "type": "string"
+    }
+  }
+}

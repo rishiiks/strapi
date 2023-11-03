@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "floating_rate_savings_bonds_downloads",
+  "info": {
+    "singularName": "floating-rate-savings-bonds-download",
+    "pluralName": "floating-rate-savings-bonds-downloads",
+    "displayName": "FLOATING RATE SAVINGS BONDS DOWNLOAD",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "file": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

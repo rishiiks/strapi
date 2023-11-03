@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "capital_gain_bonds",
+  "info": {
+    "singularName": "capital-gain-bond",
+    "pluralName": "capital-gain-bonds",
+    "displayName": "Capital Gain Bond",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bonds": {
+      "type": "string",
+      "required": true
+    },
+    "coupon": {
+      "type": "string"
+    },
+    "tenure": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "string"
+    },
+    "applyOnline": {
+      "type": "text"
+    },
+    "download": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "collectionName": "components_corporate_fd_fd_interest_charts",
+  "info": {
+    "displayName": "FD Interest Chart",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "CompanyName": {
+      "type": "string",
+      "required": true
+    },
+    "Rating": {
+      "type": "string"
+    },
+    "twelveMonths": {
+      "type": "decimal"
+    },
+    "fifteenMonths": {
+      "type": "decimal"
+    },
+    "eighteenMonths": {
+      "type": "decimal"
+    },
+    "twentyTwoMonths": {
+      "type": "decimal"
+    },
+    "twentyFourMonths": {
+      "type": "decimal"
+    },
+    "thirtyMonths": {
+      "type": "decimal"
+    },
+    "thirtySixMonths": {
+      "type": "decimal"
+    },
+    "fortyFourMonths": {
+      "type": "decimal"
+    },
+    "fortyEightMonths": {
+      "type": "decimal"
+    },
+    "sixtyMonths": {
+      "type": "decimal"
+    },
+    "DownloadForm": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

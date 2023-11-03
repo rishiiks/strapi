@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_corporate_fd_key_features",
+  "info": {
+    "displayName": "Key Feature",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
