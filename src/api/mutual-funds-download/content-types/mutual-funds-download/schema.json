@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mutual_funds_downloads",
+  "info": {
+    "singularName": "mutual-funds-download",
+    "pluralName": "mutual-funds-downloads",
+    "displayName": "Mutual Funds Download",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "mutual_fund_types": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::mutual-fund-type.mutual-fund-type",
+      "mappedBy": "mutual_funds_download"
+    }
+  }
+}

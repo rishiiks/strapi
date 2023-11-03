@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_corporate_fd_faqs",
+  "info": {
+    "displayName": "FAQ",
+    "icon": "information"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "text"
+    }
+  }
+}
